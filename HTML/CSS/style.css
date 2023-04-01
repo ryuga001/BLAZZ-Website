@@ -35,23 +35,28 @@ body {
     background-color: rgba(255, 166, 0, 0.781);
     border-radius: 0.7rem;
     font-family: sans-serif;
-    border : 1px solid;
+    border: 1px solid;
 }
 
 .login-btn:hover {
     background-color: rgba(255, 166, 0, 0.986);
 }
-.container{
+
+.container {
     height: 100vh;
 }
+
 .row {
     margin-top: 16vh;
     height: 62vh;
     display: flex;
 }
+
 .middle-container {
     background-color: #B9E9FC;
+    padding-top: 5rem;
 }
+
 .column {
     position: relative;
     top: 5vh;
@@ -61,21 +66,24 @@ body {
     height: 45vh;
     width: 45vh;
 }
+
 ul {
     background-color: rgba(255, 77, 0, 0.756);
     list-style-type: none;
-    margin : 0;
-    padding :0;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
-    padding-left: 6rem ;
+    padding-left: 6rem;
 }
-.nav-bar-content {    
+
+.nav-bar-content {
     display: inline;
     float: left;
-    font-size : 1.5rem;
+    font-size: 1.5rem;
     margin: 9px;
-    margin-top : 22px;
+    margin-top: 22px;
 }
+
 #logo {
     padding-left: 15px;
     font-size: 2rem;
@@ -83,9 +91,7 @@ ul {
     float: left;
     margin: 1rem;
 }
-.middle-container{
-    padding-top: 5rem;
-}
+
 #book3-img {
     height: 30vh;
     width: 30vh;
@@ -94,15 +100,19 @@ ul {
     top: 32px;
     border-radius: 15px;
 }
+
 #book3-img:hover {
     height: 32vh;
-    width : 32vh;
+    width: 32vh;
 }
+
 #book3-img-title {
     margin-left: 140px;
     margin-top: 47px;
+    font-size: 142%;
 }
-#visul-playbutton-img{
+
+#visul-playbutton-img {
     height: 30vh;
     width: 30vh;
     position: relative;
@@ -110,10 +120,18 @@ ul {
     top: 32px;
     border-radius: 15px;
 }
-#visul-playbutton-img:hover{
+
+#visul-playbutton-img:hover {
     height: 32vh;
-    width: 32vh;    
+    width: 32vh;
 }
+
+#visul-playbutton-img-title {
+    margin-left: 140px;
+    margin-top: 47px;
+    font-size: 142%;
+}
+
 #audio-img {
     height: 30vh;
     width: 30vh;
@@ -122,7 +140,18 @@ ul {
     top: 32px;
     border-radius: 15px;
 }
-#audio-img:hover{
+
+#audio-img:hover {
     height: 32vh;
-    width: 32vh;    
+    width: 32vh;
+}
+
+#audio-img-title {
+    margin-left: 140px;
+    margin-top: 47px;
+    font-size: 142%;
+}
+
+#container-middle-heading {
+    margin-left: 153px;
 }
