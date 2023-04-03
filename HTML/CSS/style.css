@@ -5,6 +5,7 @@ body {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 #book-bunch {
@@ -55,6 +56,7 @@ a {
     margin-top: 16vh;
     height: 62vh;
     display: flex;
+    /* grid-template-columns: 1fr 1fr ; */
 }
 
 .middle-container {
@@ -72,7 +74,7 @@ a {
     width: 45vh;
 }
 
-ul {
+.nav-bar-list {
     background-color: rgba(255, 77, 0, 0.756);
     list-style-type: none;
     margin: 0;
@@ -90,6 +92,7 @@ ul {
 }
 
 #logo {
+    color :#ffdab9;
     padding-left: 15px;
     font-size: 2rem;
     display: inline;
@@ -213,8 +216,56 @@ ul {
     height: 213px;
     border-radius: 5px;
     width: 330px;
+    border : 2px solid ;
 }
 .video-thumbnails-img:hover {
     height: 220px;
     width: 335px;
+}
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #ff4d00c1 ;
+    height : 125px;
+    width: 100vw;
+    font-size: 13px;
+}
+.footer-item-1 {
+    font-size: 50px;
+    margin-left: 68px;
+    margin-top: 19px;
+    color: #ffdab9;
+}
+.footer-item-2 {
+    justify-self: center;
+    font-size: 15px;
+}
+.footer-item-2-suscribe-btn {
+    margin-left: 0px;
+    font-size: 15px;
+    height: 40px;
+    width: 136px;
+    border-radius: 12px;
+    border: 2px solid;
+    background-color: #443d3d;
+    color: white;
+}
+.footer-item-2-suscribe-btn:hover {
+    background-color: black;
+}
+.footer-item-3{
+    justify-self: end;
+    align-self: end;
+    margin-bottom: 6px;
+    margin-right: 61px;
+}
+.footer-item-3-img {
+    height: 11px;
+    width: 13px;
+    border-radius: 5px;
+    background-color: #ffe7cc;
+}
+.footer-item-3-list {
+    list-style-type: none;
+    padding-left: 0;
 }
