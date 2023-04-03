@@ -214,3 +214,7 @@ ul {
     border-radius: 5px;
     width: 330px;
 }
+.video-thumbnails-img:hover {
+    height: 220px;
+    width: 335px;
+}
