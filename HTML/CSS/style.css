@@ -7,7 +7,50 @@ a {
     text-decoration: none;
     color: black;
 }
-
+li a:hover {
+    color :azure
+}
+.nav-bar-list {
+    /* display: flex; */
+    background-color: rgba(255, 77, 0, 0.756);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-left: 6rem;
+}
+#search_box {
+    margin-top: 23px;
+    margin-left: 804px;
+    height: 25px;
+    width: 163px;
+    border-radius: 8px;
+    color: black;
+    background-color: #fff2cc;
+    /* margin-left: 878px; */
+    margin-right: 15px;
+}
+#search_box:hover {
+    height : 27px;
+    width : 165px;
+    background-color: azure;
+    
+}
+#user_logo {
+    font-size: 35px;
+    border-radius: 15px;
+    margin-top: 4px;
+    margin-left: 10px;
+    margin-bottom: 4px;
+    margin-right: 10px;
+}
+.nav-bar-content {
+    display: inline;
+    float: left;
+    font-size: 1.5rem;
+    margin: 9px;
+    margin-top: 22px;
+}
 #book-bunch {
     position: absolute;
     height: 74vh;
@@ -15,6 +58,17 @@ a {
     border-radius: 1rem;
     top: 16vh;
     left: 122vh;
+    animation-name: book-bunch-left-move ;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes book-bunch-left-move {
+    from {
+        left : 104vh;
+    }
+    to {
+        left : 122vh;
+    }
 }
 
 #book-bunch:hover {
@@ -30,6 +84,7 @@ a {
     
 } */
 #qoute-1 {
+    font-family: sans-serif;
     position: absolute;
     font-size: 2rem;
     font-style: italic;
@@ -51,10 +106,22 @@ a {
     border-radius: 0.7rem;
     font-family: sans-serif;
     border: 1px solid;
+    animation-name: login-btn;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes login-btn {
+    from {
+        top : 70vh;
+    }
+    to {
+        top : 65vh;
+    }
 }
 
 .login-btn:hover {
     background-color: rgba(255, 166, 0, 0.986);
+    border: 2px solid black;
 }
 
 .container {
@@ -99,22 +166,6 @@ a {
     width: 45vh;
 }
 
-.nav-bar-list {
-    background-color: rgba(255, 77, 0, 0.756);
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    padding-left: 6rem;
-}
-
-.nav-bar-content {
-    display: inline;
-    float: left;
-    font-size: 1.5rem;
-    margin: 9px;
-    margin-top: 22px;
-}
 
 #logo {
     color :#ffdab9;
@@ -135,8 +186,10 @@ a {
 }
 
 #book3-img:hover {
+    transition-duration: 1s ;
     height: 32vh;
     width: 32vh;
+    border: 2px solid black;
 }
 
 #book3-img-title {
@@ -155,8 +208,10 @@ a {
 }
 
 #visul-playbutton-img:hover {
+    transition-duration: 1s ;
     height: 32vh;
     width: 32vh;
+    border: 2px solid black;
 }
 
 #visul-playbutton-img-title {
@@ -175,8 +230,10 @@ a {
 }
 
 #audio-img:hover {
+    transition-duration: 1s ;
     height: 32vh;
     width: 32vh;
+    border: 2px solid black;
 }
 
 #audio-img-title {
@@ -217,6 +274,7 @@ a {
 }
 
 .book-content-img:hover {
+    transition-duration: 1s ;
     height: 240px;
     width: 160px;
     /* margin-left: 58px; */
@@ -244,6 +302,7 @@ a {
     border : 2px solid ;
 }
 .video-thumbnails-img:hover {
+    transition-duration: 1s ;
     height: 220px;
     width: 335px;
 }

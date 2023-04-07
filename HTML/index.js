@@ -15,11 +15,15 @@ function change_qoutes() {
     document.getElementById("qoute-1").innerHTML = qoutes[rand];
 }
 change_qoutes();
-
-
+// document.getElementById("qoute-1").addEventListener("click",change_qoutes);
+var change_backgroung_image_for_middle_container_cnt =0;
 function change_backgroung_image_for_middle_container() {
-    var rand = Math.floor(Math.random() * 3 + 1);
+    change_backgroung_image_for_middle_container_cnt++;
+    var rand = (change_backgroung_image_for_middle_container_cnt%3)+1;
     var imgSource =  "IMAGES/middle-container-imgs/img-"+rand+".png";
     document.getElementById("middle-container-bg-img").setAttribute("src",imgSource);
 }
-change_backgroung_image_for_middle_container();
+// change_backgroung_image_for_middle_container();
+
+document.getElementById("middle-container-bg-img").addEventListener("click",change_backgroung_image_for_middle_container);
+
