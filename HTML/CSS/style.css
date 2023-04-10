@@ -1,8 +1,19 @@
 body {
-    background: rgb(215, 237, 244);
+    background:  #B9E9FC;
     margin: 0;
+    /* animation-name : changing-bg-color ; 
+    animation-duration: 4s;
+    animation-iteration-count: infinite; */
 }
-
+/* @keyframes changing-bg-color {
+    50%{
+        background-color: rgb(215, 237, 244); 
+    }
+    100%{
+        background-color: #B9E9FC;
+    }
+    
+} */
 a {
     text-decoration: none;
     color: black;
@@ -12,16 +23,26 @@ li a:hover {
 }
 .nav-bar-list {
     /* display: flex; */
-    background-color: rgba(255, 77, 0, 0.756);
+   
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     padding-left: 6rem;
 }
+.left-container , .right-container , .nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-bar {
+    background-color: rgba(255, 77, 0, 0.756);
+    border : 1px solid black;
+}
 #search_box {
-    margin-top: 23px;
-    margin-left: 804px;
+    margin-top: 3px;
+    /* margin-left: 804px; */
     height: 25px;
     width: 163px;
     border-radius: 8px;
@@ -43,6 +64,9 @@ li a:hover {
     margin-left: 10px;
     margin-bottom: 4px;
     margin-right: 10px;
+}
+#user_logo:hover {
+    background-color: yellow;
 }
 .nav-bar-content {
     display: inline;
@@ -79,7 +103,9 @@ li a:hover {
     display: grid;
     grid-template-rows: 1fr ;
     grid-template-columns: 1fr 1fr;
+    
 }
+
 /* .top-container-item-1{
     
 } */
@@ -175,7 +201,6 @@ li a:hover {
     float: left;
     margin: 1rem;
 }
-
 #book3-img {
     height: 30vh;
     width: 30vh;
@@ -263,7 +288,9 @@ li a:hover {
     /* background-color: aqua; */
     /* border-radius: 40px; */
 }
-
+.item p {
+    margin-left: 60px;
+}
 .book-content-img {
     height: 227px;
     width: 153px;
@@ -313,12 +340,13 @@ li a:hover {
     height : 125px;
     width: 100vw;
     font-size: 13px;
+    border : 1px solid black;
 }
 .footer-item-1 {
     font-size: 50px;
     margin-left: 68px;
     margin-top: 19px;
-    color: #ffdab9;
+    color: white;
 }
 .footer-item-2 {
     justify-self: center;
@@ -336,6 +364,7 @@ li a:hover {
 }
 .footer-item-2-suscribe-btn:hover {
     background-color: black;
+    
 }
 .footer-item-3{
     justify-self: end;

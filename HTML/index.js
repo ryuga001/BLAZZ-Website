@@ -21,9 +21,11 @@ function change_backgroung_image_for_middle_container() {
     change_backgroung_image_for_middle_container_cnt++;
     var rand = (change_backgroung_image_for_middle_container_cnt%3)+1;
     var imgSource =  "IMAGES/middle-container-imgs/img-"+rand+".png";
+    // document.getElementById("middle-container-bg-img").style.transitionTimingFunction = "ease-in-out";
     document.getElementById("middle-container-bg-img").setAttribute("src",imgSource);
+    
 }
 // change_backgroung_image_for_middle_container();
 
-document.getElementById("middle-container-bg-img").addEventListener("click",change_backgroung_image_for_middle_container);
+document.getElementById("middle-container-bg-img").addEventListener("mouseover",change_backgroung_image_for_middle_container);
 
