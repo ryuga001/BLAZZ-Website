@@ -29,3 +29,5 @@ function change_backgroung_image_for_middle_container() {
 
 document.getElementById("middle-container-bg-img").addEventListener("mouseover",change_backgroung_image_for_middle_container);
 
+
+

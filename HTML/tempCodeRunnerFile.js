@@ -1,0 +1,1 @@
+document.getElementsByClassName("item")[0].innerHTML = "<strong> + x + </strong>";

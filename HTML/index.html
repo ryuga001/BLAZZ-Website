@@ -16,31 +16,34 @@
     <div class="nav-bar">
         <div class="left-container">
             <ul class="nav-bar-list">
-                <!-- <li id="logo">blaZz</li> -->
                 <li class="nav-bar-content"><a>Home</a></li>
                 <li class="nav-bar-content"><a>About</a></li>
                 <li class="nav-bar-content"><a>Contact</a></li>
-
+                <li class="nav-bar-content"><a>MyNotes</a>
+                </li>
             </ul>
         </div>
+        
         <div class="right-container">
             <input type="text" id="search_box" placeholder="🔎search">
             <button type="button" id="user_logo">👤</button>
         </div>
     </div>
-
-    <div class="container top-container">
+    <div class="container ">
+        <div class="slider">
+            <div class="slider_img_container"><img class="slider_img" src="IMAGES\bg2.png"></div>
+            <!-- <div class="slider_img_container"><img class="slider_img" src="IMAGES\bg1.png"></div> -->
+            <!-- <div class="slider_img_container"><img class="slider_img" src="IMAGES\bg3.png"></div> -->
+            <!-- <div class="slider_img_container"><img class="slider_img" src="IMAGES\bg4.png"></div> -->
+        </div> 
         <div class="top-container-item-1">
             <img id="book-bunch" src="IMAGES/book-bunch.png">
         </div>
         <div class="top-container-item-2">
             <p id="qoute-1">focus on today</p>
-            <button type="button" class="login-btn">login</button>
+            <button type="button" class="login-btn">Download</button>
+        
         </div>
-
-        <!-- <span id="qoute-1">focus on today</span>
-        <img id="book-bunch" src="IMAGES/book-bunch.png">
-        <button type="button" class="login-btn">login</button> -->
     </div>
 
 
@@ -56,12 +59,12 @@
 
         <div class="row">
             <div class="column">
-                <img id="book3-img" src="IMAGES/book3.png">
-                <p id="book3-img-title"><a><strong>Read</strong></a></p>
+                <a href="#third-section"> <img id="book3-img" src="IMAGES/book3.png">
+                <p id="book3-img-title"><strong>Read</strong></p></a>
             </div>
             <div class="column">
-                <img id="visul-playbutton-img" src="IMAGES/visual playbutton.png">
-                <p id="visul-playbutton-img-title"><a><strong>Visual</strong></a></p>
+                <a href="#forth-section"><img id="visul-playbutton-img" src="IMAGES/visual playbutton.png">
+                <p id="visul-playbutton-img-title"><strong>Video</strong></a></p>
             </div>
             <div class="column">
                 <img id="audio-img" src="IMAGES/audio.png">
@@ -73,7 +76,7 @@
 
     <!-- reding section third section  -->
 
-    <div class="container third-section">
+    <div class="container" id="third-section">
         <div class="item">
             <a href="/text.txt"><img class="book-content-img" src="IMAGES/think-and-grow-rich-img.png">
             <p>Think And Grow Rich</p></a>
@@ -108,7 +111,7 @@
         </div>
     </div>
     <!-- videos -->
-    <div class="container forth-section">
+    <div class="container" id="forth-section">
         <div class="fitem">
             <a href="https://www.youtube.com/watch?v=ZurRx-nAO-s" ><img class="video-thumbnails-img" src="IMAGES/vedio-1-thn-img.png">
             <p>You Know The Vibes</p></a>
